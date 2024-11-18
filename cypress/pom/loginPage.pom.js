@@ -23,7 +23,7 @@ class Login {
     };
 
     checkUserName () {
-        let expectedName = 'manda user';
+        let expectedName = 'Demo Doe1';
 
         cy.get('.oxd-userdropdown-name').then( (storeValue) => {
             let actualName = storeValue.text();
